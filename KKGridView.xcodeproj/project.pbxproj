@@ -205,10 +205,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A61BE1C13DCAF1F00AB4243 /* Build configuration list for PBXNativeTarget "KKGridView" */;
 			buildPhases = (
+				2451D56715BC060600C7CA71 /* CopyFiles */,
 				1A61BE0B13DCAF1F00AB4243 /* Sources */,
 				1A61BE0C13DCAF1F00AB4243 /* Frameworks */,
 				1A61BE0D13DCAF1F00AB4243 /* Headers */,
-				2451D56715BC060600C7CA71 /* CopyFiles */,
 			);
 			buildRules = (
 			);
