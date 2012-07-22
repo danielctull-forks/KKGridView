@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0BEC7613DDF862003C2632 /* KKIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0BEC7413DDF862003C2632 /* KKIndexPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A0BEC7713DDF862003C2632 /* KKIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BEC7513DDF862003C2632 /* KKIndexPath.m */; };
 		1A32AD8113DCDF1D00E8CC7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AD7F13DCDF1D00E8CC7C /* CoreGraphics.framework */; };
 		1A32AD8213DCDF1D00E8CC7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A32AD8013DCDF1D00E8CC7C /* UIKit.framework */; };
-		1A32AD8513DCDFB200E8CC7C /* KKGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A32AD8313DCDFB200E8CC7C /* KKGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A32AD8613DCDFB200E8CC7C /* KKGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AD8413DCDFB200E8CC7C /* KKGridView.m */; };
-		1A32AD8913DCDFC200E8CC7C /* KKGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A32AD8713DCDFC200E8CC7C /* KKGridViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A32AD8A13DCDFC200E8CC7C /* KKGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A32AD8813DCDFC200E8CC7C /* KKGridViewCell.m */; };
 		1A3F1B7013E34A62006747A3 /* KKGridViewUpdateStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3F1B6E13E34A61006747A3 /* KKGridViewUpdateStack.h */; };
 		1A3F1B7113E34A62006747A3 /* KKGridViewUpdateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3F1B6F13E34A61006747A3 /* KKGridViewUpdateStack.m */; };
 		1A3F1B7413E34CF8006747A3 /* KKGridViewUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3F1B7213E34CF8006747A3 /* KKGridViewUpdate.h */; };
 		1A3F1B7513E34CF8006747A3 /* KKGridViewUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3F1B7313E34CF8006747A3 /* KKGridViewUpdate.m */; };
-		1A5F356713DD02CD00A38A3E /* Definitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5F356613DD02CD00A38A3E /* Definitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A61BE1313DCAF1F00AB4243 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A61BE1213DCAF1F00AB4243 /* Foundation.framework */; };
-		1A72A9751453AE42002546F8 /* KKGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A72A9731453AE42002546F8 /* KKGridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A72A9761453AE42002546F8 /* KKGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72A9741453AE42002546F8 /* KKGridViewController.m */; };
 		1AD5397A13DF7A060071EFDC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5397913DF7A060071EFDC /* CoreFoundation.framework */; };
 		1AD5397C13DF7E690071EFDC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD5397B13DF7E690071EFDC /* QuartzCore.framework */; };
+		2451D56915BC061B00C7CA71 /* KKGridView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A32AD8313DCDFB200E8CC7C /* KKGridView.h */; };
+		2451D56A15BC061B00C7CA71 /* KKGridViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A32AD8713DCDFC200E8CC7C /* KKGridViewCell.h */; };
+		2451D56B15BC061B00C7CA71 /* KKIndexPath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A0BEC7413DDF862003C2632 /* KKIndexPath.h */; };
+		2451D56C15BC061B00C7CA71 /* KKGridViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A72A9731453AE42002546F8 /* KKGridViewController.h */; };
+		2451D56D15BC061B00C7CA71 /* Definitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A5F356613DD02CD00A38A3E /* Definitions.h */; };
 		F42166A614A3A610004E0C32 /* KKGridViewIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = F42166A414A3A610004E0C32 /* KKGridViewIndexView.h */; };
 		F42166A714A3A610004E0C32 /* KKGridViewIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = F42166A514A3A610004E0C32 /* KKGridViewIndexView.m */; };
 		FC368B40149B483900B92E57 /* KKBlocksDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FC368B3E149B483900B92E57 /* KKBlocksDelegate.h */; };
@@ -32,6 +32,23 @@
 		FC53DF8313E629FE000767B1 /* KKGridViewSectionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FC53DF8113E629FE000767B1 /* KKGridViewSectionInfo.h */; };
 		FC53DF8413E629FE000767B1 /* KKGridViewSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FC53DF8213E629FE000767B1 /* KKGridViewSectionInfo.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2451D56715BC060600C7CA71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(TARGET_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2451D56915BC061B00C7CA71 /* KKGridView.h in CopyFiles */,
+				2451D56A15BC061B00C7CA71 /* KKGridViewCell.h in CopyFiles */,
+				2451D56B15BC061B00C7CA71 /* KKIndexPath.h in CopyFiles */,
+				2451D56C15BC061B00C7CA71 /* KKGridViewController.h in CopyFiles */,
+				2451D56D15BC061B00C7CA71 /* Definitions.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A0BEC7413DDF862003C2632 /* KKIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKIndexPath.h; sourceTree = "<group>"; };
@@ -173,11 +190,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5F356713DD02CD00A38A3E /* Definitions.h in Headers */,
-				1A32AD8513DCDFB200E8CC7C /* KKGridView.h in Headers */,
-				1A32AD8913DCDFC200E8CC7C /* KKGridViewCell.h in Headers */,
-				1A72A9751453AE42002546F8 /* KKGridViewController.h in Headers */,
-				1A0BEC7613DDF862003C2632 /* KKIndexPath.h in Headers */,
 				1A3F1B7413E34CF8006747A3 /* KKGridViewUpdate.h in Headers */,
 				1A3F1B7013E34A62006747A3 /* KKGridViewUpdateStack.h in Headers */,
 				FC53DF8313E629FE000767B1 /* KKGridViewSectionInfo.h in Headers */,
@@ -196,6 +208,7 @@
 				1A61BE0B13DCAF1F00AB4243 /* Sources */,
 				1A61BE0C13DCAF1F00AB4243 /* Frameworks */,
 				1A61BE0D13DCAF1F00AB4243 /* Headers */,
+				2451D56715BC060600C7CA71 /* CopyFiles */,
 			);
 			buildRules = (
 			);
